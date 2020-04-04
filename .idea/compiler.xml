@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-mongo-rest-api" />
+        <module name="spring-boot-api-doc" />
+        <module name="spring-datajpa-postgresql" />
+        <module name="spring-elasticsearch" />
+        <module name="spring-dockerjpa-postgresql" />
+        <module name="spring-hello-world" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-boot-api-doc" target="1.8" />
+      <module name="spring-datajpa-postgresql" target="1.8" />
+      <module name="spring-dockerjpa-postgresql" target="1.8" />
+      <module name="spring-elasticsearch" target="1.8" />
+      <module name="spring-examples" target="1.5" />
+      <module name="spring-hello-world" target="1.5" />
+      <module name="spring-mongo-rest-api" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot-api-doc" options="-parameters" />
+      <module name="spring-datajpa-postgresql" options="-parameters" />
+      <module name="spring-dockerjpa-postgresql" options="-parameters" />
+      <module name="spring-elasticsearch" options="-parameters" />
+      <module name="spring-mongo-rest-api" options="-parameters" />
+    </option>
+  </component>
+</project>

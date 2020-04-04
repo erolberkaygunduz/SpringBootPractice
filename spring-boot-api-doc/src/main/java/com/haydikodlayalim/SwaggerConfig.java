@@ -1,5 +1,6 @@
 package com.haydikodlayalim;
 
+import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
@@ -16,19 +17,17 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class SwaggerConfig {
 
     @Bean
-    public Docket api() {
+    public Docket api(){
         return new Docket(DocumentationType.SWAGGER_2).select()
                 .apis(RequestHandlerSelectors.basePackage("com.haydikodlayalim"))
                 .paths(PathSelectors.regex("/.*"))
                 .build().apiInfo(apiEndPointsInfo());
-
     }
 
-
-    private ApiInfo apiEndPointsInfo() {
-        return new ApiInfoBuilder().title("Spring Boot Swagger Örnegi")
-                .description("Pet Api Dokümantasyonu")
-                .contact(new Contact("Haydi Kodlayalim", "", ""))
+    private ApiInfo apiEndPointsInfo(){
+        return new ApiInfoBuilder().title("Spring boot swigger ornegi")
+                .description("Pet Api dokumentasyonu")
+                .contact(new Contact("Haydi Kodlayalim","",""))
                 .license("Apache 2.0")
                 .licenseUrl("http://www.apache.org/licenses/LICENSE-2.0.html")
                 .version("1.12.3")

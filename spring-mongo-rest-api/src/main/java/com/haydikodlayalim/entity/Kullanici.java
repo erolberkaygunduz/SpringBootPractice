@@ -1,16 +1,15 @@
 package com.haydikodlayalim.entity;
 
-import java.util.HashMap;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.HashMap;
 @Document
 public class Kullanici {
-
     @Id
     private String id;
-    private String adi;
-    private String soyadi;
+    private String ;
+    private String soy;
     private HashMap ozellikleri;
 
     public String getId() {
@@ -21,7 +20,7 @@ public class Kullanici {
         this.id = id;
     }
 
-    public String getAdi() {
+    public String get() {
         return adi;
     }
 
