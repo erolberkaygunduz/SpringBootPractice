@@ -11,13 +11,18 @@
         <module name="spring-mongo-rest-api" />
         <module name="spring-datajpa-postgresql" />
         <module name="spring-elasticsearch" />
+        <module name="spring-boot-aop" />
+        <module name="spring-boot-dockerizatiapi" />
         <module name="spring-dockerjpa-postgresql" />
         <module name="spring-hello-world" />
         <module name="spring-boot-rabbitmq" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="spring-boot-aop" target="1.8" />
       <module name="spring-boot-api-doc" target="1.8" />
+      <module name="spring-boot-dockerizatiapi" target="1.8" />
+      <module name="spring-boot-dockerization" target="1.5" />
       <module name="spring-boot-rabbitmq" target="1.8" />
       <module name="spring-datajpa-postgresql" target="1.8" />
       <module name="spring-dockerjpa-postgresql" target="1.8" />
@@ -29,7 +34,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot-aop" options="-parameters" />
       <module name="spring-boot-api-doc" options="-parameters" />
+      <module name="spring-boot-dockerizatiapi" options="-parameters" />
+      <module name="spring-boot-dockerization" options="" />
       <module name="spring-boot-rabbitmq" options="-parameters" />
       <module name="spring-datajpa-postgresql" options="-parameters" />
       <module name="spring-dockerjpa-postgresql" options="-parameters" />

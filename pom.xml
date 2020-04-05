@@ -15,6 +15,9 @@
         <module>spring-dockerjpa-postgresql</module>
         <module>spring-datajpa-postgresql</module>
         <module>spring-boot-api-doc</module>
+        <module>spring-boot-dockerization</module>
+        <module>spring-boot-dockerization</module>
+        <module>spring-boot-aop</module>
     </modules>
 
 
