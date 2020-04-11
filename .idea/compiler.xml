@@ -17,6 +17,7 @@
         <module name="spring-hello-world" />
         <module name="spring-boot-graphql" />
         <module name="spring-boot-rest-template" />
+        <module name="spring-redis-cashe" />
         <module name="spring-boot-rabbitmq" />
       </profile>
     </annotationProcessing>
@@ -34,6 +35,7 @@
       <module name="spring-examples" target="1.5" />
       <module name="spring-hello-world" target="1.5" />
       <module name="spring-mongo-rest-api" target="1.8" />
+      <module name="spring-redis-cashe" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -49,6 +51,7 @@
       <module name="spring-dockerjpa-postgresql" options="-parameters" />
       <module name="spring-elasticsearch" options="-parameters" />
       <module name="spring-mongo-rest-api" options="-parameters" />
+      <module name="spring-redis-cashe" options="-parameters" />
     </option>
   </component>
 </project>
