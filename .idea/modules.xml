@@ -5,7 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-aop/spring-boot-aop.iml" filepath="$PROJECT_DIR$/spring-boot-aop/spring-boot-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-api-doc/spring-boot-api-doc.iml" filepath="$PROJECT_DIR$/spring-boot-api-doc/spring-boot-api-doc.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-dockerizatiapi/spring-boot-dockerizatiapi.iml" filepath="$PROJECT_DIR$/spring-boot-dockerizatiapi/spring-boot-dockerizatiapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-graphql/spring-boot-graphql.iml" filepath="$PROJECT_DIR$/spring-boot-graphql/spring-boot-graphql.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-rabbitmq/spring-boot-rabbitmq.iml" filepath="$PROJECT_DIR$/spring-boot-rabbitmq/spring-boot-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-rest-template/spring-boot-rest-template.iml" filepath="$PROJECT_DIR$/spring-boot-rest-template/spring-boot-rest-template.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-datajpa-postgresql/spring-datajpa-postgresql.iml" filepath="$PROJECT_DIR$/spring-datajpa-postgresql/spring-datajpa-postgresql.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-dockerjpa-postgresql/spring-dockerjpa-postgresql.iml" filepath="$PROJECT_DIR$/spring-dockerjpa-postgresql/spring-dockerjpa-postgresql.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-elasticsearch/spring-elasticsearch.iml" filepath="$PROJECT_DIR$/spring-elasticsearch/spring-elasticsearch.iml" />
