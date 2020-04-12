@@ -12,6 +12,7 @@
         <module name="spring-datajpa-postgresql" />
         <module name="spring-elasticsearch" />
         <module name="spring-mongo-rest-api" />
+        <module name="spring-boot-websocket" />
         <module name="spring-boot-dockerizatiapi" />
         <module name="spring-dockerjpa-postgresql" />
         <module name="spring-hello-world" />
@@ -29,6 +30,7 @@
       <module name="spring-boot-graphql" target="1.8" />
       <module name="spring-boot-rabbitmq" target="1.8" />
       <module name="spring-boot-rest-template" target="1.8" />
+      <module name="spring-boot-websocket" target="1.8" />
       <module name="spring-datajpa-postgresql" target="1.8" />
       <module name="spring-dockerjpa-postgresql" target="1.8" />
       <module name="spring-elasticsearch" target="1.8" />
@@ -47,6 +49,7 @@
       <module name="spring-boot-graphql" options="-parameters" />
       <module name="spring-boot-rabbitmq" options="-parameters" />
       <module name="spring-boot-rest-template" options="-parameters" />
+      <module name="spring-boot-websocket" options="-parameters" />
       <module name="spring-datajpa-postgresql" options="-parameters" />
       <module name="spring-dockerjpa-postgresql" options="-parameters" />
       <module name="spring-elasticsearch" options="-parameters" />

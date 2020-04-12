@@ -21,6 +21,7 @@
         <module>spring-boot-graphql</module>
         <module>spring-boot-rest-template</module>
         <module>spring-redis-cashe</module>
+        <module>spring-boot-websocket</module>
     </modules>
 
 
