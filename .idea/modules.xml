@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-api-doc/spring-boot-api-doc.iml" filepath="$PROJECT_DIR$/spring-boot-api-doc/spring-boot-api-doc.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-dockerizatiapi/spring-boot-dockerizatiapi.iml" filepath="$PROJECT_DIR$/spring-boot-dockerizatiapi/spring-boot-dockerizatiapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-graphql/spring-boot-graphql.iml" filepath="$PROJECT_DIR$/spring-boot-graphql/spring-boot-graphql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-gridfs-fileupload/spring-boot-gridfs-fileupload.iml" filepath="$PROJECT_DIR$/spring-boot-gridfs-fileupload/spring-boot-gridfs-fileupload.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-pagination/spring-boot-pagination.iml" filepath="$PROJECT_DIR$/spring-boot-pagination/spring-boot-pagination.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-rabbitmq/spring-boot-rabbitmq.iml" filepath="$PROJECT_DIR$/spring-boot-rabbitmq/spring-boot-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-rest-template/spring-boot-rest-template.iml" filepath="$PROJECT_DIR$/spring-boot-rest-template/spring-boot-rest-template.iml" />

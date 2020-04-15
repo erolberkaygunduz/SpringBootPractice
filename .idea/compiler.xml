@@ -12,6 +12,7 @@
         <module name="spring-boot-rest-template" />
         <module name="spring-boot-graphql" />
         <module name="spring-redis-cashe" />
+        <module name="spring-boot-gridfs-fileupload" />
         <module name="spring-boot-api-doc" />
         <module name="spring-elasticsearch" />
         <module name="spring-boot-aop" />
@@ -29,6 +30,7 @@
       <module name="spring-boot-dockerizatiapi" target="1.8" />
       <module name="spring-boot-dockerization" target="1.5" />
       <module name="spring-boot-graphql" target="1.8" />
+      <module name="spring-boot-gridfs-fileupload" target="1.8" />
       <module name="spring-boot-pagination" target="1.8" />
       <module name="spring-boot-rabbitmq" target="1.8" />
       <module name="spring-boot-rest-template" target="1.8" />
@@ -49,6 +51,7 @@
       <module name="spring-boot-dockerizatiapi" options="-parameters" />
       <module name="spring-boot-dockerization" options="" />
       <module name="spring-boot-graphql" options="-parameters" />
+      <module name="spring-boot-gridfs-fileupload" options="-parameters" />
       <module name="spring-boot-pagination" options="-parameters" />
       <module name="spring-boot-rabbitmq" options="-parameters" />
       <module name="spring-boot-rest-template" options="-parameters" />
